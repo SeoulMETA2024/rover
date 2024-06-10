@@ -2,8 +2,8 @@ from gpiozero import Motor
 
 class Movement():
     def __init__(self) -> None:
-        self.Rmotor = Motor(6,5) # 핀 넘버 추가하기
-        self.Lmotor = Motor(22,23) #얘도 핀 넘버 추가하기
+        self.Rmotor = Motor(2,3) # 핀 넘버 추가하기
+        self.Lmotor = Motor(14,15) #얘도 핀 넘버 추가하기
         return
     
     def forward(self):
